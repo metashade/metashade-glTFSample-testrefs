@@ -1,5 +1,13 @@
 [
     [
-        "SciFiHelmet-0"
+        {
+            "dx": {
+                "vs": "SciFiHelmet-0-VS.cso",
+                "ps": "SciFiHelmet-0-PS.cso"
+            },
+            "vk": {
+                "frag": "SciFiHelmet-0-frag.spv"
+            }
+        }
     ]
 ]
