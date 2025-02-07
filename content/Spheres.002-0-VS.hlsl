@@ -9,9 +9,9 @@ struct Light
 	float3 Pw;
 	float fInnerConeCos;
 	float fOuterConeCos;
-	float type_;
+	int type_;
 	float fDepthBias;
-	float iShadowMap;
+	int iShadowMap;
 };
 
 cbuffer cbPerFrame : register(b0)
@@ -107,7 +107,7 @@ cbuffer cbPerFrame : register(b0)
 	Light g_light77;
 	Light g_light78;
 	Light g_light79;
-	float g_nLights;
+	int g_nLights;
 	float g_lodBias;
 };
 
