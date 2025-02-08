@@ -145,20 +145,6 @@ struct PsOut
 	float4 rgbaColor : SV_TARGET;
 };
 
-Texture2D g_tBaseColor : register(t0);
-SamplerState g_sBaseColor : register(s0);
-Texture2D g_tMetallicRoughness : register(t1);
-SamplerState g_sMetallicRoughness : register(s1);
-Texture2D g_tNormal : register(t2);
-SamplerState g_sNormal : register(s2);
-Texture2D g_tIblBrdfLut : register(t3);
-SamplerState g_sIblBrdfLut : register(s3);
-TextureCube g_tIblDiffuse : register(t4);
-SamplerState g_sIblDiffuse : register(s4);
-TextureCube g_tIblSpecular : register(t5);
-SamplerState g_sIblSpecular : register(s5);
-Texture2D g_tShadowMap : register(t9);
-SamplerComparisonState g_sShadowMap : register(s9);
 struct PbrParams
 {
 	float3 rgbDiffuse;
@@ -166,26 +152,6 @@ struct PbrParams
 	float fPerceptualRoughness;
 	float fOpacity;
 };
-
-PbrParams metallicRoughness(VsOut psIn)
-{
-	float4 rgbaBaseColor = g_tBaseColor.SampleBias(g_sBaseColor, psIn.uv0, g_lodBias);
-	rgbaBaseColor = (rgbaBaseColor * g_perObjectPbrFactors.rgbaBaseColor);
-	clip(rgbaBaseColor.a);
-	float fPerceptualRoughness = g_perObjectPbrFactors.fRoughness;
-	float fMetallic = g_perObjectPbrFactors.fMetallic;
-	float4 metallicRoughnessSample = g_tMetallicRoughness.SampleBias(g_sMetallicRoughness, psIn.uv0, g_lodBias);
-	fPerceptualRoughness = (fPerceptualRoughness * metallicRoughnessSample.g);
-	fMetallic = (fMetallic * metallicRoughnessSample.b);
-	fMetallic = saturate(fMetallic);
-	float fMinF0 = 0.04;
-	PbrParams pbrParams;
-	pbrParams.rgbDiffuse = ((rgbaBaseColor.rgb * (1.0 - fMinF0)) * (1.0 - fMetallic));
-	pbrParams.rgbF0 = lerp(fMinF0.xxx, rgbaBaseColor.rgb, fMetallic.xxx);
-	pbrParams.fPerceptualRoughness = saturate(fPerceptualRoughness);
-	pbrParams.fOpacity = rgbaBaseColor.a;
-	return pbrParams;
-}
 
 // https://google.github.io/filament/Filament.md.html#materialsystem/specularbrdf/normaldistributionfunction(speculard)
 // 
@@ -236,6 +202,40 @@ float3 pbrBrdf(float3 L, float3 N, float3 V, PbrParams pbrParams)
 float getRangeAttenuation(Light light, float d)
 {
 	return saturate(lerp(1, 0, (d / light.fRange)));
+}
+
+Texture2D g_tBaseColor : register(t0);
+SamplerState g_sBaseColor : register(s0);
+Texture2D g_tMetallicRoughness : register(t1);
+SamplerState g_sMetallicRoughness : register(s1);
+Texture2D g_tNormal : register(t2);
+SamplerState g_sNormal : register(s2);
+Texture2D g_tIblBrdfLut : register(t3);
+SamplerState g_sIblBrdfLut : register(s3);
+TextureCube g_tIblDiffuse : register(t4);
+SamplerState g_sIblDiffuse : register(s4);
+TextureCube g_tIblSpecular : register(t5);
+SamplerState g_sIblSpecular : register(s5);
+Texture2D g_tShadowMap : register(t9);
+SamplerComparisonState g_sShadowMap : register(s9);
+PbrParams metallicRoughness(VsOut psIn)
+{
+	float4 rgbaBaseColor = g_tBaseColor.SampleBias(g_sBaseColor, psIn.uv0, g_lodBias);
+	rgbaBaseColor = (rgbaBaseColor * g_perObjectPbrFactors.rgbaBaseColor);
+	clip(rgbaBaseColor.a);
+	float fPerceptualRoughness = g_perObjectPbrFactors.fRoughness;
+	float fMetallic = g_perObjectPbrFactors.fMetallic;
+	float4 metallicRoughnessSample = g_tMetallicRoughness.SampleBias(g_sMetallicRoughness, psIn.uv0, g_lodBias);
+	fPerceptualRoughness = (fPerceptualRoughness * metallicRoughnessSample.g);
+	fMetallic = (fMetallic * metallicRoughnessSample.b);
+	fMetallic = saturate(fMetallic);
+	float fMinF0 = 0.04;
+	PbrParams pbrParams;
+	pbrParams.rgbDiffuse = ((rgbaBaseColor.rgb * (1.0 - fMinF0)) * (1.0 - fMetallic));
+	pbrParams.rgbF0 = lerp(fMinF0.xxx, rgbaBaseColor.rgb, fMetallic.xxx);
+	pbrParams.fPerceptualRoughness = saturate(fPerceptualRoughness);
+	pbrParams.fOpacity = rgbaBaseColor.a;
+	return pbrParams;
 }
 
 float getPcfShadow(float2 uv, float fCompareValue)
