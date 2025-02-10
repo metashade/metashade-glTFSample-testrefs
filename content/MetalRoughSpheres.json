@@ -2,55 +2,55 @@
     [
         {
             "dx": {
-                "vs": "Spheres.004-0-VS.cso",
+                "vs": "GltfPbr-uv0-VS.cso",
                 "ps": "Spheres.004-0-PS.cso"
             },
             "vk": {
-                "frag": "Spheres.004-0-frag.spv"
+                "frag": "GLTFPbrPass-frag.spv"
             }
         }
     ],
     [
         {
             "dx": {
-                "vs": "Spheres.003-0-VS.cso",
+                "vs": "GltfPbr-uv0-VS.cso",
                 "ps": "Spheres.003-0-PS.cso"
             },
             "vk": {
-                "frag": "Spheres.003-0-frag.spv"
+                "frag": "GLTFPbrPass-frag.spv"
             }
         }
     ],
     [
         {
             "dx": {
-                "vs": "Spheres.002-0-VS.cso",
+                "vs": "GltfPbr-uv0-VS.cso",
                 "ps": "Spheres.002-0-PS.cso"
             },
             "vk": {
-                "frag": "Spheres.002-0-frag.spv"
+                "frag": "GLTFPbrPass-frag.spv"
             }
         }
     ],
     [
         {
             "dx": {
-                "vs": "Spheres.001-0-VS.cso",
+                "vs": "GltfPbr-uv0-VS.cso",
                 "ps": "Spheres.001-0-PS.cso"
             },
             "vk": {
-                "frag": "Spheres.001-0-frag.spv"
+                "frag": "GLTFPbrPass-frag.spv"
             }
         }
     ],
     [
         {
             "dx": {
-                "vs": "Spheres-0-VS.cso",
+                "vs": "GltfPbr-uv0-VS.cso",
                 "ps": "Spheres-0-PS.cso"
             },
             "vk": {
-                "frag": "Spheres-0-frag.spv"
+                "frag": "GLTFPbrPass-frag.spv"
             }
         }
     ]

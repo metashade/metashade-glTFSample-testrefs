@@ -2,11 +2,11 @@
     [
         {
             "dx": {
-                "vs": "mesh_helmet_LP_13930damagedHelmet-0-VS.cso",
+                "vs": "GltfPbr-uv0-VS.cso",
                 "ps": "mesh_helmet_LP_13930damagedHelmet-0-PS.cso"
             },
             "vk": {
-                "frag": "mesh_helmet_LP_13930damagedHelmet-0-frag.spv"
+                "frag": "GLTFPbrPass-frag.spv"
             }
         }
     ]

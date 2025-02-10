@@ -2,929 +2,929 @@
     [
         {
             "dx": {
-                "vs": "UnnamedMesh0-0-VS.cso",
+                "vs": "GltfPbr-uv0_Tobj-VS.cso",
                 "ps": "UnnamedMesh0-0-PS.cso"
             },
             "vk": {
-                "frag": "UnnamedMesh0-0-frag.spv"
+                "frag": "GLTFPbrPass-frag.spv"
             }
         },
         {
             "dx": {
-                "vs": "UnnamedMesh0-1-VS.cso",
+                "vs": "GltfPbr-uv0_Tobj-VS.cso",
                 "ps": "UnnamedMesh0-1-PS.cso"
             },
             "vk": {
-                "frag": "UnnamedMesh0-1-frag.spv"
+                "frag": "GLTFPbrPass-frag.spv"
             }
         },
         {
             "dx": {
-                "vs": "UnnamedMesh0-2-VS.cso",
+                "vs": "GltfPbr-uv0_Tobj-VS.cso",
                 "ps": "UnnamedMesh0-2-PS.cso"
             },
             "vk": {
-                "frag": "UnnamedMesh0-2-frag.spv"
+                "frag": "GLTFPbrPass-frag.spv"
             }
         },
         {
             "dx": {
-                "vs": "UnnamedMesh0-3-VS.cso",
+                "vs": "GltfPbr-uv0_Tobj-VS.cso",
                 "ps": "UnnamedMesh0-3-PS.cso"
             },
             "vk": {
-                "frag": "UnnamedMesh0-3-frag.spv"
+                "frag": "GLTFPbrPass-frag.spv"
             }
         },
         {
             "dx": {
-                "vs": "UnnamedMesh0-4-VS.cso",
+                "vs": "GltfPbr-uv0_Tobj-VS.cso",
                 "ps": "UnnamedMesh0-4-PS.cso"
             },
             "vk": {
-                "frag": "UnnamedMesh0-4-frag.spv"
+                "frag": "GLTFPbrPass-frag.spv"
             }
         },
         {
             "dx": {
-                "vs": "UnnamedMesh0-5-VS.cso",
+                "vs": "GltfPbr-uv0_Tobj-VS.cso",
                 "ps": "UnnamedMesh0-5-PS.cso"
             },
             "vk": {
-                "frag": "UnnamedMesh0-5-frag.spv"
+                "frag": "GLTFPbrPass-frag.spv"
             }
         },
         {
             "dx": {
-                "vs": "UnnamedMesh0-6-VS.cso",
+                "vs": "GltfPbr-uv0_Tobj-VS.cso",
                 "ps": "UnnamedMesh0-6-PS.cso"
             },
             "vk": {
-                "frag": "UnnamedMesh0-6-frag.spv"
+                "frag": "GLTFPbrPass-frag.spv"
             }
         },
         {
             "dx": {
-                "vs": "UnnamedMesh0-7-VS.cso",
+                "vs": "GltfPbr-uv0_Tobj-VS.cso",
                 "ps": "UnnamedMesh0-7-PS.cso"
             },
             "vk": {
-                "frag": "UnnamedMesh0-7-frag.spv"
+                "frag": "GLTFPbrPass-frag.spv"
             }
         },
         {
             "dx": {
-                "vs": "UnnamedMesh0-8-VS.cso",
+                "vs": "GltfPbr-uv0_Tobj-VS.cso",
                 "ps": "UnnamedMesh0-8-PS.cso"
             },
             "vk": {
-                "frag": "UnnamedMesh0-8-frag.spv"
+                "frag": "GLTFPbrPass-frag.spv"
             }
         },
         {
             "dx": {
-                "vs": "UnnamedMesh0-9-VS.cso",
+                "vs": "GltfPbr-uv0_Tobj-VS.cso",
                 "ps": "UnnamedMesh0-9-PS.cso"
             },
             "vk": {
-                "frag": "UnnamedMesh0-9-frag.spv"
+                "frag": "GLTFPbrPass-frag.spv"
             }
         },
         {
             "dx": {
-                "vs": "UnnamedMesh0-10-VS.cso",
+                "vs": "GltfPbr-uv0_Tobj-VS.cso",
                 "ps": "UnnamedMesh0-10-PS.cso"
             },
             "vk": {
-                "frag": "UnnamedMesh0-10-frag.spv"
+                "frag": "GLTFPbrPass-frag.spv"
             }
         },
         {
             "dx": {
-                "vs": "UnnamedMesh0-11-VS.cso",
+                "vs": "GltfPbr-uv0_Tobj-VS.cso",
                 "ps": "UnnamedMesh0-11-PS.cso"
             },
             "vk": {
-                "frag": "UnnamedMesh0-11-frag.spv"
+                "frag": "GLTFPbrPass-frag.spv"
             }
         },
         {
             "dx": {
-                "vs": "UnnamedMesh0-12-VS.cso",
+                "vs": "GltfPbr-uv0_Tobj-VS.cso",
                 "ps": "UnnamedMesh0-12-PS.cso"
             },
             "vk": {
-                "frag": "UnnamedMesh0-12-frag.spv"
+                "frag": "GLTFPbrPass-frag.spv"
             }
         },
         {
             "dx": {
-                "vs": "UnnamedMesh0-13-VS.cso",
+                "vs": "GltfPbr-uv0_Tobj-VS.cso",
                 "ps": "UnnamedMesh0-13-PS.cso"
             },
             "vk": {
-                "frag": "UnnamedMesh0-13-frag.spv"
+                "frag": "GLTFPbrPass-frag.spv"
             }
         },
         {
             "dx": {
-                "vs": "UnnamedMesh0-14-VS.cso",
+                "vs": "GltfPbr-uv0_Tobj-VS.cso",
                 "ps": "UnnamedMesh0-14-PS.cso"
             },
             "vk": {
-                "frag": "UnnamedMesh0-14-frag.spv"
+                "frag": "GLTFPbrPass-frag.spv"
             }
         },
         {
             "dx": {
-                "vs": "UnnamedMesh0-15-VS.cso",
+                "vs": "GltfPbr-uv0_Tobj-VS.cso",
                 "ps": "UnnamedMesh0-15-PS.cso"
             },
             "vk": {
-                "frag": "UnnamedMesh0-15-frag.spv"
+                "frag": "GLTFPbrPass-frag.spv"
             }
         },
         {
             "dx": {
-                "vs": "UnnamedMesh0-16-VS.cso",
+                "vs": "GltfPbr-uv0_Tobj-VS.cso",
                 "ps": "UnnamedMesh0-16-PS.cso"
             },
             "vk": {
-                "frag": "UnnamedMesh0-16-frag.spv"
+                "frag": "GLTFPbrPass-frag.spv"
             }
         },
         {
             "dx": {
-                "vs": "UnnamedMesh0-17-VS.cso",
+                "vs": "GltfPbr-uv0_Tobj-VS.cso",
                 "ps": "UnnamedMesh0-17-PS.cso"
             },
             "vk": {
-                "frag": "UnnamedMesh0-17-frag.spv"
+                "frag": "GLTFPbrPass-frag.spv"
             }
         },
         {
             "dx": {
-                "vs": "UnnamedMesh0-18-VS.cso",
+                "vs": "GltfPbr-uv0_Tobj-VS.cso",
                 "ps": "UnnamedMesh0-18-PS.cso"
             },
             "vk": {
-                "frag": "UnnamedMesh0-18-frag.spv"
+                "frag": "GLTFPbrPass-frag.spv"
             }
         },
         {
             "dx": {
-                "vs": "UnnamedMesh0-19-VS.cso",
+                "vs": "GltfPbr-uv0_Tobj-VS.cso",
                 "ps": "UnnamedMesh0-19-PS.cso"
             },
             "vk": {
-                "frag": "UnnamedMesh0-19-frag.spv"
+                "frag": "GLTFPbrPass-frag.spv"
             }
         },
         {
             "dx": {
-                "vs": "UnnamedMesh0-20-VS.cso",
+                "vs": "GltfPbr-uv0_Tobj-VS.cso",
                 "ps": "UnnamedMesh0-20-PS.cso"
             },
             "vk": {
-                "frag": "UnnamedMesh0-20-frag.spv"
+                "frag": "GLTFPbrPass-frag.spv"
             }
         },
         {
             "dx": {
-                "vs": "UnnamedMesh0-21-VS.cso",
+                "vs": "GltfPbr-uv0_Tobj-VS.cso",
                 "ps": "UnnamedMesh0-21-PS.cso"
             },
             "vk": {
-                "frag": "UnnamedMesh0-21-frag.spv"
+                "frag": "GLTFPbrPass-frag.spv"
             }
         },
         {
             "dx": {
-                "vs": "UnnamedMesh0-22-VS.cso",
+                "vs": "GltfPbr-uv0_Tobj-VS.cso",
                 "ps": "UnnamedMesh0-22-PS.cso"
             },
             "vk": {
-                "frag": "UnnamedMesh0-22-frag.spv"
+                "frag": "GLTFPbrPass-frag.spv"
             }
         },
         {
             "dx": {
-                "vs": "UnnamedMesh0-23-VS.cso",
+                "vs": "GltfPbr-uv0_Tobj-VS.cso",
                 "ps": "UnnamedMesh0-23-PS.cso"
             },
             "vk": {
-                "frag": "UnnamedMesh0-23-frag.spv"
+                "frag": "GLTFPbrPass-frag.spv"
             }
         },
         {
             "dx": {
-                "vs": "UnnamedMesh0-24-VS.cso",
+                "vs": "GltfPbr-uv0_Tobj-VS.cso",
                 "ps": "UnnamedMesh0-24-PS.cso"
             },
             "vk": {
-                "frag": "UnnamedMesh0-24-frag.spv"
+                "frag": "GLTFPbrPass-frag.spv"
             }
         },
         {
             "dx": {
-                "vs": "UnnamedMesh0-25-VS.cso",
+                "vs": "GltfPbr-uv0_Tobj-VS.cso",
                 "ps": "UnnamedMesh0-25-PS.cso"
             },
             "vk": {
-                "frag": "UnnamedMesh0-25-frag.spv"
+                "frag": "GLTFPbrPass-frag.spv"
             }
         },
         {
             "dx": {
-                "vs": "UnnamedMesh0-26-VS.cso",
+                "vs": "GltfPbr-uv0_Tobj-VS.cso",
                 "ps": "UnnamedMesh0-26-PS.cso"
             },
             "vk": {
-                "frag": "UnnamedMesh0-26-frag.spv"
+                "frag": "GLTFPbrPass-frag.spv"
             }
         },
         {
             "dx": {
-                "vs": "UnnamedMesh0-27-VS.cso",
+                "vs": "GltfPbr-uv0_Tobj-VS.cso",
                 "ps": "UnnamedMesh0-27-PS.cso"
             },
             "vk": {
-                "frag": "UnnamedMesh0-27-frag.spv"
+                "frag": "GLTFPbrPass-frag.spv"
             }
         },
         {
             "dx": {
-                "vs": "UnnamedMesh0-28-VS.cso",
+                "vs": "GltfPbr-uv0_Tobj-VS.cso",
                 "ps": "UnnamedMesh0-28-PS.cso"
             },
             "vk": {
-                "frag": "UnnamedMesh0-28-frag.spv"
+                "frag": "GLTFPbrPass-frag.spv"
             }
         },
         {
             "dx": {
-                "vs": "UnnamedMesh0-29-VS.cso",
+                "vs": "GltfPbr-uv0_Tobj-VS.cso",
                 "ps": "UnnamedMesh0-29-PS.cso"
             },
             "vk": {
-                "frag": "UnnamedMesh0-29-frag.spv"
+                "frag": "GLTFPbrPass-frag.spv"
             }
         },
         {
             "dx": {
-                "vs": "UnnamedMesh0-30-VS.cso",
+                "vs": "GltfPbr-uv0_Tobj-VS.cso",
                 "ps": "UnnamedMesh0-30-PS.cso"
             },
             "vk": {
-                "frag": "UnnamedMesh0-30-frag.spv"
+                "frag": "GLTFPbrPass-frag.spv"
             }
         },
         {
             "dx": {
-                "vs": "UnnamedMesh0-31-VS.cso",
+                "vs": "GltfPbr-uv0_Tobj-VS.cso",
                 "ps": "UnnamedMesh0-31-PS.cso"
             },
             "vk": {
-                "frag": "UnnamedMesh0-31-frag.spv"
+                "frag": "GLTFPbrPass-frag.spv"
             }
         },
         {
             "dx": {
-                "vs": "UnnamedMesh0-32-VS.cso",
+                "vs": "GltfPbr-uv0_Tobj-VS.cso",
                 "ps": "UnnamedMesh0-32-PS.cso"
             },
             "vk": {
-                "frag": "UnnamedMesh0-32-frag.spv"
+                "frag": "GLTFPbrPass-frag.spv"
             }
         },
         {
             "dx": {
-                "vs": "UnnamedMesh0-33-VS.cso",
+                "vs": "GltfPbr-uv0_Tobj-VS.cso",
                 "ps": "UnnamedMesh0-33-PS.cso"
             },
             "vk": {
-                "frag": "UnnamedMesh0-33-frag.spv"
+                "frag": "GLTFPbrPass-frag.spv"
             }
         },
         {
             "dx": {
-                "vs": "UnnamedMesh0-34-VS.cso",
+                "vs": "GltfPbr-uv0_Tobj-VS.cso",
                 "ps": "UnnamedMesh0-34-PS.cso"
             },
             "vk": {
-                "frag": "UnnamedMesh0-34-frag.spv"
+                "frag": "GLTFPbrPass-frag.spv"
             }
         },
         {
             "dx": {
-                "vs": "UnnamedMesh0-35-VS.cso",
+                "vs": "GltfPbr-uv0_Tobj-VS.cso",
                 "ps": "UnnamedMesh0-35-PS.cso"
             },
             "vk": {
-                "frag": "UnnamedMesh0-35-frag.spv"
+                "frag": "GLTFPbrPass-frag.spv"
             }
         },
         {
             "dx": {
-                "vs": "UnnamedMesh0-36-VS.cso",
+                "vs": "GltfPbr-uv0_Tobj-VS.cso",
                 "ps": "UnnamedMesh0-36-PS.cso"
             },
             "vk": {
-                "frag": "UnnamedMesh0-36-frag.spv"
+                "frag": "GLTFPbrPass-frag.spv"
             }
         },
         {
             "dx": {
-                "vs": "UnnamedMesh0-37-VS.cso",
+                "vs": "GltfPbr-uv0_Tobj-VS.cso",
                 "ps": "UnnamedMesh0-37-PS.cso"
             },
             "vk": {
-                "frag": "UnnamedMesh0-37-frag.spv"
+                "frag": "GLTFPbrPass-frag.spv"
             }
         },
         {
             "dx": {
-                "vs": "UnnamedMesh0-38-VS.cso",
+                "vs": "GltfPbr-uv0_Tobj-VS.cso",
                 "ps": "UnnamedMesh0-38-PS.cso"
             },
             "vk": {
-                "frag": "UnnamedMesh0-38-frag.spv"
+                "frag": "GLTFPbrPass-frag.spv"
             }
         },
         {
             "dx": {
-                "vs": "UnnamedMesh0-39-VS.cso",
+                "vs": "GltfPbr-uv0_Tobj-VS.cso",
                 "ps": "UnnamedMesh0-39-PS.cso"
             },
             "vk": {
-                "frag": "UnnamedMesh0-39-frag.spv"
+                "frag": "GLTFPbrPass-frag.spv"
             }
         },
         {
             "dx": {
-                "vs": "UnnamedMesh0-40-VS.cso",
+                "vs": "GltfPbr-uv0_Tobj-VS.cso",
                 "ps": "UnnamedMesh0-40-PS.cso"
             },
             "vk": {
-                "frag": "UnnamedMesh0-40-frag.spv"
+                "frag": "GLTFPbrPass-frag.spv"
             }
         },
         {
             "dx": {
-                "vs": "UnnamedMesh0-41-VS.cso",
+                "vs": "GltfPbr-uv0_Tobj-VS.cso",
                 "ps": "UnnamedMesh0-41-PS.cso"
             },
             "vk": {
-                "frag": "UnnamedMesh0-41-frag.spv"
+                "frag": "GLTFPbrPass-frag.spv"
             }
         },
         {
             "dx": {
-                "vs": "UnnamedMesh0-42-VS.cso",
+                "vs": "GltfPbr-uv0_Tobj-VS.cso",
                 "ps": "UnnamedMesh0-42-PS.cso"
             },
             "vk": {
-                "frag": "UnnamedMesh0-42-frag.spv"
+                "frag": "GLTFPbrPass-frag.spv"
             }
         },
         {
             "dx": {
-                "vs": "UnnamedMesh0-43-VS.cso",
+                "vs": "GltfPbr-uv0_Tobj-VS.cso",
                 "ps": "UnnamedMesh0-43-PS.cso"
             },
             "vk": {
-                "frag": "UnnamedMesh0-43-frag.spv"
+                "frag": "GLTFPbrPass-frag.spv"
             }
         },
         {
             "dx": {
-                "vs": "UnnamedMesh0-44-VS.cso",
+                "vs": "GltfPbr-uv0_Tobj-VS.cso",
                 "ps": "UnnamedMesh0-44-PS.cso"
             },
             "vk": {
-                "frag": "UnnamedMesh0-44-frag.spv"
+                "frag": "GLTFPbrPass-frag.spv"
             }
         },
         {
             "dx": {
-                "vs": "UnnamedMesh0-45-VS.cso",
+                "vs": "GltfPbr-uv0_Tobj-VS.cso",
                 "ps": "UnnamedMesh0-45-PS.cso"
             },
             "vk": {
-                "frag": "UnnamedMesh0-45-frag.spv"
+                "frag": "GLTFPbrPass-frag.spv"
             }
         },
         {
             "dx": {
-                "vs": "UnnamedMesh0-46-VS.cso",
+                "vs": "GltfPbr-uv0_Tobj-VS.cso",
                 "ps": "UnnamedMesh0-46-PS.cso"
             },
             "vk": {
-                "frag": "UnnamedMesh0-46-frag.spv"
+                "frag": "GLTFPbrPass-frag.spv"
             }
         },
         {
             "dx": {
-                "vs": "UnnamedMesh0-47-VS.cso",
+                "vs": "GltfPbr-uv0_Tobj-VS.cso",
                 "ps": "UnnamedMesh0-47-PS.cso"
             },
             "vk": {
-                "frag": "UnnamedMesh0-47-frag.spv"
+                "frag": "GLTFPbrPass-frag.spv"
             }
         },
         {
             "dx": {
-                "vs": "UnnamedMesh0-48-VS.cso",
+                "vs": "GltfPbr-uv0_Tobj-VS.cso",
                 "ps": "UnnamedMesh0-48-PS.cso"
             },
             "vk": {
-                "frag": "UnnamedMesh0-48-frag.spv"
+                "frag": "GLTFPbrPass-frag.spv"
             }
         },
         {
             "dx": {
-                "vs": "UnnamedMesh0-49-VS.cso",
+                "vs": "GltfPbr-uv0_Tobj-VS.cso",
                 "ps": "UnnamedMesh0-49-PS.cso"
             },
             "vk": {
-                "frag": "UnnamedMesh0-49-frag.spv"
+                "frag": "GLTFPbrPass-frag.spv"
             }
         },
         {
             "dx": {
-                "vs": "UnnamedMesh0-50-VS.cso",
+                "vs": "GltfPbr-uv0-VS.cso",
                 "ps": "UnnamedMesh0-50-PS.cso"
             },
             "vk": {
-                "frag": "UnnamedMesh0-50-frag.spv"
+                "frag": "GLTFPbrPass-frag.spv"
             }
         },
         {
             "dx": {
-                "vs": "UnnamedMesh0-51-VS.cso",
+                "vs": "GltfPbr-uv0_Tobj-VS.cso",
                 "ps": "UnnamedMesh0-51-PS.cso"
             },
             "vk": {
-                "frag": "UnnamedMesh0-51-frag.spv"
+                "frag": "GLTFPbrPass-frag.spv"
             }
         },
         {
             "dx": {
-                "vs": "UnnamedMesh0-52-VS.cso",
+                "vs": "GltfPbr-uv0_Tobj-VS.cso",
                 "ps": "UnnamedMesh0-52-PS.cso"
             },
             "vk": {
-                "frag": "UnnamedMesh0-52-frag.spv"
+                "frag": "GLTFPbrPass-frag.spv"
             }
         },
         {
             "dx": {
-                "vs": "UnnamedMesh0-53-VS.cso",
+                "vs": "GltfPbr-uv0_Tobj-VS.cso",
                 "ps": "UnnamedMesh0-53-PS.cso"
             },
             "vk": {
-                "frag": "UnnamedMesh0-53-frag.spv"
+                "frag": "GLTFPbrPass-frag.spv"
             }
         },
         {
             "dx": {
-                "vs": "UnnamedMesh0-54-VS.cso",
+                "vs": "GltfPbr-uv0_Tobj-VS.cso",
                 "ps": "UnnamedMesh0-54-PS.cso"
             },
             "vk": {
-                "frag": "UnnamedMesh0-54-frag.spv"
+                "frag": "GLTFPbrPass-frag.spv"
             }
         },
         {
             "dx": {
-                "vs": "UnnamedMesh0-55-VS.cso",
+                "vs": "GltfPbr-uv0_Tobj-VS.cso",
                 "ps": "UnnamedMesh0-55-PS.cso"
             },
             "vk": {
-                "frag": "UnnamedMesh0-55-frag.spv"
+                "frag": "GLTFPbrPass-frag.spv"
             }
         },
         {
             "dx": {
-                "vs": "UnnamedMesh0-56-VS.cso",
+                "vs": "GltfPbr-uv0_Tobj-VS.cso",
                 "ps": "UnnamedMesh0-56-PS.cso"
             },
             "vk": {
-                "frag": "UnnamedMesh0-56-frag.spv"
+                "frag": "GLTFPbrPass-frag.spv"
             }
         },
         {
             "dx": {
-                "vs": "UnnamedMesh0-57-VS.cso",
+                "vs": "GltfPbr-uv0_Tobj-VS.cso",
                 "ps": "UnnamedMesh0-57-PS.cso"
             },
             "vk": {
-                "frag": "UnnamedMesh0-57-frag.spv"
+                "frag": "GLTFPbrPass-frag.spv"
             }
         },
         {
             "dx": {
-                "vs": "UnnamedMesh0-58-VS.cso",
+                "vs": "GltfPbr-uv0_Tobj-VS.cso",
                 "ps": "UnnamedMesh0-58-PS.cso"
             },
             "vk": {
-                "frag": "UnnamedMesh0-58-frag.spv"
+                "frag": "GLTFPbrPass-frag.spv"
             }
         },
         {
             "dx": {
-                "vs": "UnnamedMesh0-59-VS.cso",
+                "vs": "GltfPbr-uv0_Tobj-VS.cso",
                 "ps": "UnnamedMesh0-59-PS.cso"
             },
             "vk": {
-                "frag": "UnnamedMesh0-59-frag.spv"
+                "frag": "GLTFPbrPass-frag.spv"
             }
         },
         {
             "dx": {
-                "vs": "UnnamedMesh0-60-VS.cso",
+                "vs": "GltfPbr-uv0_Tobj-VS.cso",
                 "ps": "UnnamedMesh0-60-PS.cso"
             },
             "vk": {
-                "frag": "UnnamedMesh0-60-frag.spv"
+                "frag": "GLTFPbrPass-frag.spv"
             }
         },
         {
             "dx": {
-                "vs": "UnnamedMesh0-61-VS.cso",
+                "vs": "GltfPbr-uv0_Tobj-VS.cso",
                 "ps": "UnnamedMesh0-61-PS.cso"
             },
             "vk": {
-                "frag": "UnnamedMesh0-61-frag.spv"
+                "frag": "GLTFPbrPass-frag.spv"
             }
         },
         {
             "dx": {
-                "vs": "UnnamedMesh0-62-VS.cso",
+                "vs": "GltfPbr-uv0_Tobj-VS.cso",
                 "ps": "UnnamedMesh0-62-PS.cso"
             },
             "vk": {
-                "frag": "UnnamedMesh0-62-frag.spv"
+                "frag": "GLTFPbrPass-frag.spv"
             }
         },
         {
             "dx": {
-                "vs": "UnnamedMesh0-63-VS.cso",
+                "vs": "GltfPbr-uv0_Tobj-VS.cso",
                 "ps": "UnnamedMesh0-63-PS.cso"
             },
             "vk": {
-                "frag": "UnnamedMesh0-63-frag.spv"
+                "frag": "GLTFPbrPass-frag.spv"
             }
         },
         {
             "dx": {
-                "vs": "UnnamedMesh0-64-VS.cso",
+                "vs": "GltfPbr-uv0_Tobj-VS.cso",
                 "ps": "UnnamedMesh0-64-PS.cso"
             },
             "vk": {
-                "frag": "UnnamedMesh0-64-frag.spv"
+                "frag": "GLTFPbrPass-frag.spv"
             }
         },
         {
             "dx": {
-                "vs": "UnnamedMesh0-65-VS.cso",
+                "vs": "GltfPbr-uv0_Tobj-VS.cso",
                 "ps": "UnnamedMesh0-65-PS.cso"
             },
             "vk": {
-                "frag": "UnnamedMesh0-65-frag.spv"
+                "frag": "GLTFPbrPass-frag.spv"
             }
         },
         {
             "dx": {
-                "vs": "UnnamedMesh0-66-VS.cso",
+                "vs": "GltfPbr-uv0_Tobj-VS.cso",
                 "ps": "UnnamedMesh0-66-PS.cso"
             },
             "vk": {
-                "frag": "UnnamedMesh0-66-frag.spv"
+                "frag": "GLTFPbrPass-frag.spv"
             }
         },
         {
             "dx": {
-                "vs": "UnnamedMesh0-67-VS.cso",
+                "vs": "GltfPbr-uv0_Tobj-VS.cso",
                 "ps": "UnnamedMesh0-67-PS.cso"
             },
             "vk": {
-                "frag": "UnnamedMesh0-67-frag.spv"
+                "frag": "GLTFPbrPass-frag.spv"
             }
         },
         {
             "dx": {
-                "vs": "UnnamedMesh0-68-VS.cso",
+                "vs": "GltfPbr-uv0_Tobj-VS.cso",
                 "ps": "UnnamedMesh0-68-PS.cso"
             },
             "vk": {
-                "frag": "UnnamedMesh0-68-frag.spv"
+                "frag": "GLTFPbrPass-frag.spv"
             }
         },
         {
             "dx": {
-                "vs": "UnnamedMesh0-69-VS.cso",
+                "vs": "GltfPbr-uv0_Tobj-VS.cso",
                 "ps": "UnnamedMesh0-69-PS.cso"
             },
             "vk": {
-                "frag": "UnnamedMesh0-69-frag.spv"
+                "frag": "GLTFPbrPass-frag.spv"
             }
         },
         {
             "dx": {
-                "vs": "UnnamedMesh0-70-VS.cso",
+                "vs": "GltfPbr-uv0_Tobj-VS.cso",
                 "ps": "UnnamedMesh0-70-PS.cso"
             },
             "vk": {
-                "frag": "UnnamedMesh0-70-frag.spv"
+                "frag": "GLTFPbrPass-frag.spv"
             }
         },
         {
             "dx": {
-                "vs": "UnnamedMesh0-71-VS.cso",
+                "vs": "GltfPbr-uv0_Tobj-VS.cso",
                 "ps": "UnnamedMesh0-71-PS.cso"
             },
             "vk": {
-                "frag": "UnnamedMesh0-71-frag.spv"
+                "frag": "GLTFPbrPass-frag.spv"
             }
         },
         {
             "dx": {
-                "vs": "UnnamedMesh0-72-VS.cso",
+                "vs": "GltfPbr-uv0_Tobj-VS.cso",
                 "ps": "UnnamedMesh0-72-PS.cso"
             },
             "vk": {
-                "frag": "UnnamedMesh0-72-frag.spv"
+                "frag": "GLTFPbrPass-frag.spv"
             }
         },
         {
             "dx": {
-                "vs": "UnnamedMesh0-73-VS.cso",
+                "vs": "GltfPbr-uv0_Tobj-VS.cso",
                 "ps": "UnnamedMesh0-73-PS.cso"
             },
             "vk": {
-                "frag": "UnnamedMesh0-73-frag.spv"
+                "frag": "GLTFPbrPass-frag.spv"
             }
         },
         {
             "dx": {
-                "vs": "UnnamedMesh0-74-VS.cso",
+                "vs": "GltfPbr-uv0_Tobj-VS.cso",
                 "ps": "UnnamedMesh0-74-PS.cso"
             },
             "vk": {
-                "frag": "UnnamedMesh0-74-frag.spv"
+                "frag": "GLTFPbrPass-frag.spv"
             }
         },
         {
             "dx": {
-                "vs": "UnnamedMesh0-75-VS.cso",
+                "vs": "GltfPbr-uv0_Tobj-VS.cso",
                 "ps": "UnnamedMesh0-75-PS.cso"
             },
             "vk": {
-                "frag": "UnnamedMesh0-75-frag.spv"
+                "frag": "GLTFPbrPass-frag.spv"
             }
         },
         {
             "dx": {
-                "vs": "UnnamedMesh0-76-VS.cso",
+                "vs": "GltfPbr-uv0_Tobj-VS.cso",
                 "ps": "UnnamedMesh0-76-PS.cso"
             },
             "vk": {
-                "frag": "UnnamedMesh0-76-frag.spv"
+                "frag": "GLTFPbrPass-frag.spv"
             }
         },
         {
             "dx": {
-                "vs": "UnnamedMesh0-77-VS.cso",
+                "vs": "GltfPbr-uv0_Tobj-VS.cso",
                 "ps": "UnnamedMesh0-77-PS.cso"
             },
             "vk": {
-                "frag": "UnnamedMesh0-77-frag.spv"
+                "frag": "GLTFPbrPass-frag.spv"
             }
         },
         {
             "dx": {
-                "vs": "UnnamedMesh0-78-VS.cso",
+                "vs": "GltfPbr-uv0_Tobj-VS.cso",
                 "ps": "UnnamedMesh0-78-PS.cso"
             },
             "vk": {
-                "frag": "UnnamedMesh0-78-frag.spv"
+                "frag": "GLTFPbrPass-frag.spv"
             }
         },
         {
             "dx": {
-                "vs": "UnnamedMesh0-79-VS.cso",
+                "vs": "GltfPbr-uv0_Tobj-VS.cso",
                 "ps": "UnnamedMesh0-79-PS.cso"
             },
             "vk": {
-                "frag": "UnnamedMesh0-79-frag.spv"
+                "frag": "GLTFPbrPass-frag.spv"
             }
         },
         {
             "dx": {
-                "vs": "UnnamedMesh0-80-VS.cso",
+                "vs": "GltfPbr-uv0_Tobj-VS.cso",
                 "ps": "UnnamedMesh0-80-PS.cso"
             },
             "vk": {
-                "frag": "UnnamedMesh0-80-frag.spv"
+                "frag": "GLTFPbrPass-frag.spv"
             }
         },
         {
             "dx": {
-                "vs": "UnnamedMesh0-81-VS.cso",
+                "vs": "GltfPbr-uv0_Tobj-VS.cso",
                 "ps": "UnnamedMesh0-81-PS.cso"
             },
             "vk": {
-                "frag": "UnnamedMesh0-81-frag.spv"
+                "frag": "GLTFPbrPass-frag.spv"
             }
         },
         {
             "dx": {
-                "vs": "UnnamedMesh0-82-VS.cso",
+                "vs": "GltfPbr-uv0_Tobj-VS.cso",
                 "ps": "UnnamedMesh0-82-PS.cso"
             },
             "vk": {
-                "frag": "UnnamedMesh0-82-frag.spv"
+                "frag": "GLTFPbrPass-frag.spv"
             }
         },
         {
             "dx": {
-                "vs": "UnnamedMesh0-83-VS.cso",
+                "vs": "GltfPbr-uv0_Tobj-VS.cso",
                 "ps": "UnnamedMesh0-83-PS.cso"
             },
             "vk": {
-                "frag": "UnnamedMesh0-83-frag.spv"
+                "frag": "GLTFPbrPass-frag.spv"
             }
         },
         {
             "dx": {
-                "vs": "UnnamedMesh0-84-VS.cso",
+                "vs": "GltfPbr-uv0_Tobj-VS.cso",
                 "ps": "UnnamedMesh0-84-PS.cso"
             },
             "vk": {
-                "frag": "UnnamedMesh0-84-frag.spv"
+                "frag": "GLTFPbrPass-frag.spv"
             }
         },
         {
             "dx": {
-                "vs": "UnnamedMesh0-85-VS.cso",
+                "vs": "GltfPbr-uv0_Tobj-VS.cso",
                 "ps": "UnnamedMesh0-85-PS.cso"
             },
             "vk": {
-                "frag": "UnnamedMesh0-85-frag.spv"
+                "frag": "GLTFPbrPass-frag.spv"
             }
         },
         {
             "dx": {
-                "vs": "UnnamedMesh0-86-VS.cso",
+                "vs": "GltfPbr-uv0_Tobj-VS.cso",
                 "ps": "UnnamedMesh0-86-PS.cso"
             },
             "vk": {
-                "frag": "UnnamedMesh0-86-frag.spv"
+                "frag": "GLTFPbrPass-frag.spv"
             }
         },
         {
             "dx": {
-                "vs": "UnnamedMesh0-87-VS.cso",
+                "vs": "GltfPbr-uv0_Tobj-VS.cso",
                 "ps": "UnnamedMesh0-87-PS.cso"
             },
             "vk": {
-                "frag": "UnnamedMesh0-87-frag.spv"
+                "frag": "GLTFPbrPass-frag.spv"
             }
         },
         {
             "dx": {
-                "vs": "UnnamedMesh0-88-VS.cso",
+                "vs": "GltfPbr-uv0_Tobj-VS.cso",
                 "ps": "UnnamedMesh0-88-PS.cso"
             },
             "vk": {
-                "frag": "UnnamedMesh0-88-frag.spv"
+                "frag": "GLTFPbrPass-frag.spv"
             }
         },
         {
             "dx": {
-                "vs": "UnnamedMesh0-89-VS.cso",
+                "vs": "GltfPbr-uv0_Tobj-VS.cso",
                 "ps": "UnnamedMesh0-89-PS.cso"
             },
             "vk": {
-                "frag": "UnnamedMesh0-89-frag.spv"
+                "frag": "GLTFPbrPass-frag.spv"
             }
         },
         {
             "dx": {
-                "vs": "UnnamedMesh0-90-VS.cso",
+                "vs": "GltfPbr-uv0_Tobj-VS.cso",
                 "ps": "UnnamedMesh0-90-PS.cso"
             },
             "vk": {
-                "frag": "UnnamedMesh0-90-frag.spv"
+                "frag": "GLTFPbrPass-frag.spv"
             }
         },
         {
             "dx": {
-                "vs": "UnnamedMesh0-91-VS.cso",
+                "vs": "GltfPbr-uv0_Tobj-VS.cso",
                 "ps": "UnnamedMesh0-91-PS.cso"
             },
             "vk": {
-                "frag": "UnnamedMesh0-91-frag.spv"
+                "frag": "GLTFPbrPass-frag.spv"
             }
         },
         {
             "dx": {
-                "vs": "UnnamedMesh0-92-VS.cso",
+                "vs": "GltfPbr-uv0_Tobj-VS.cso",
                 "ps": "UnnamedMesh0-92-PS.cso"
             },
             "vk": {
-                "frag": "UnnamedMesh0-92-frag.spv"
+                "frag": "GLTFPbrPass-frag.spv"
             }
         },
         {
             "dx": {
-                "vs": "UnnamedMesh0-93-VS.cso",
+                "vs": "GltfPbr-uv0_Tobj-VS.cso",
                 "ps": "UnnamedMesh0-93-PS.cso"
             },
             "vk": {
-                "frag": "UnnamedMesh0-93-frag.spv"
+                "frag": "GLTFPbrPass-frag.spv"
             }
         },
         {
             "dx": {
-                "vs": "UnnamedMesh0-94-VS.cso",
+                "vs": "GltfPbr-uv0_Tobj-VS.cso",
                 "ps": "UnnamedMesh0-94-PS.cso"
             },
             "vk": {
-                "frag": "UnnamedMesh0-94-frag.spv"
+                "frag": "GLTFPbrPass-frag.spv"
             }
         },
         {
             "dx": {
-                "vs": "UnnamedMesh0-95-VS.cso",
+                "vs": "GltfPbr-uv0_Tobj-VS.cso",
                 "ps": "UnnamedMesh0-95-PS.cso"
             },
             "vk": {
-                "frag": "UnnamedMesh0-95-frag.spv"
+                "frag": "GLTFPbrPass-frag.spv"
             }
         },
         {
             "dx": {
-                "vs": "UnnamedMesh0-96-VS.cso",
+                "vs": "GltfPbr-uv0_Tobj-VS.cso",
                 "ps": "UnnamedMesh0-96-PS.cso"
             },
             "vk": {
-                "frag": "UnnamedMesh0-96-frag.spv"
+                "frag": "GLTFPbrPass-frag.spv"
             }
         },
         {
             "dx": {
-                "vs": "UnnamedMesh0-97-VS.cso",
+                "vs": "GltfPbr-uv0_Tobj-VS.cso",
                 "ps": "UnnamedMesh0-97-PS.cso"
             },
             "vk": {
-                "frag": "UnnamedMesh0-97-frag.spv"
+                "frag": "GLTFPbrPass-frag.spv"
             }
         },
         {
             "dx": {
-                "vs": "UnnamedMesh0-98-VS.cso",
+                "vs": "GltfPbr-uv0_Tobj-VS.cso",
                 "ps": "UnnamedMesh0-98-PS.cso"
             },
             "vk": {
-                "frag": "UnnamedMesh0-98-frag.spv"
+                "frag": "GLTFPbrPass-frag.spv"
             }
         },
         {
             "dx": {
-                "vs": "UnnamedMesh0-99-VS.cso",
+                "vs": "GltfPbr-uv0_Tobj-VS.cso",
                 "ps": "UnnamedMesh0-99-PS.cso"
             },
             "vk": {
-                "frag": "UnnamedMesh0-99-frag.spv"
+                "frag": "GLTFPbrPass-frag.spv"
             }
         },
         {
             "dx": {
-                "vs": "UnnamedMesh0-100-VS.cso",
+                "vs": "GltfPbr-uv0_Tobj-VS.cso",
                 "ps": "UnnamedMesh0-100-PS.cso"
             },
             "vk": {
-                "frag": "UnnamedMesh0-100-frag.spv"
+                "frag": "GLTFPbrPass-frag.spv"
             }
         },
         {
             "dx": {
-                "vs": "UnnamedMesh0-101-VS.cso",
+                "vs": "GltfPbr-uv0_Tobj-VS.cso",
                 "ps": "UnnamedMesh0-101-PS.cso"
             },
             "vk": {
-                "frag": "UnnamedMesh0-101-frag.spv"
+                "frag": "GLTFPbrPass-frag.spv"
             }
         },
         {
             "dx": {
-                "vs": "UnnamedMesh0-102-VS.cso",
+                "vs": "GltfPbr-uv0_Tobj-VS.cso",
                 "ps": "UnnamedMesh0-102-PS.cso"
             },
             "vk": {
-                "frag": "UnnamedMesh0-102-frag.spv"
+                "frag": "GLTFPbrPass-frag.spv"
             }
         }
     ]

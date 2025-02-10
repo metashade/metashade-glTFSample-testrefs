@@ -2,11 +2,11 @@
     [
         {
             "dx": {
-                "vs": "BoomBox-0-VS.cso",
+                "vs": "GltfPbr-Tobj_uv0-VS.cso",
                 "ps": "BoomBox-0-PS.cso"
             },
             "vk": {
-                "frag": "BoomBox-0-frag.spv"
+                "frag": "GLTFPbrPass-frag.spv"
             }
         }
     ]
