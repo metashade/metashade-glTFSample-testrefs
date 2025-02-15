@@ -3,7 +3,7 @@
         {
             "dx": {
                 "vs": "GltfPbr-Tobj_uv0-VS.cso",
-                "ps": "SciFiHelmet-0-PS.cso"
+                "ps": "GltfPbr-Tobj_uv0-bc0_mr0_n0_o0-PS.cso"
             },
             "vk": {
                 "frag": "GLTFPbrPass-frag.spv"

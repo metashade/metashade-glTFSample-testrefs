@@ -3,7 +3,7 @@
         {
             "dx": {
                 "vs": "GltfPbr-uv0-VS.cso",
-                "ps": "Spheres.004-0-PS.cso"
+                "ps": "GltfPbr-uv0-bc0_mr0-PS.cso"
             },
             "vk": {
                 "frag": "GLTFPbrPass-frag.spv"
@@ -14,7 +14,7 @@
         {
             "dx": {
                 "vs": "GltfPbr-uv0-VS.cso",
-                "ps": "Spheres.003-0-PS.cso"
+                "ps": "GltfPbr-uv0-bc0_mr0-PS.cso"
             },
             "vk": {
                 "frag": "GLTFPbrPass-frag.spv"
@@ -25,7 +25,7 @@
         {
             "dx": {
                 "vs": "GltfPbr-uv0-VS.cso",
-                "ps": "Spheres.002-0-PS.cso"
+                "ps": "GltfPbr-uv0-bc0_mr0-PS.cso"
             },
             "vk": {
                 "frag": "GLTFPbrPass-frag.spv"
@@ -36,7 +36,7 @@
         {
             "dx": {
                 "vs": "GltfPbr-uv0-VS.cso",
-                "ps": "Spheres.001-0-PS.cso"
+                "ps": "GltfPbr-uv0-bc0_mr0-PS.cso"
             },
             "vk": {
                 "frag": "GLTFPbrPass-frag.spv"
@@ -47,7 +47,7 @@
         {
             "dx": {
                 "vs": "GltfPbr-uv0-VS.cso",
-                "ps": "Spheres-0-PS.cso"
+                "ps": "GltfPbr-uv0-bc0_mr0-PS.cso"
             },
             "vk": {
                 "frag": "GLTFPbrPass-frag.spv"

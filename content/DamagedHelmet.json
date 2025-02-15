@@ -3,7 +3,7 @@
         {
             "dx": {
                 "vs": "GltfPbr-uv0-VS.cso",
-                "ps": "mesh_helmet_LP_13930damagedHelmet-0-PS.cso"
+                "ps": "GltfPbr-uv0-bc0_e0_mr0_n0_o0-PS.cso"
             },
             "vk": {
                 "frag": "GLTFPbrPass-frag.spv"
