@@ -2,7 +2,7 @@
     [
         {
             "dx": {
-                "vs": "GltfPbr-uv0_Tobj-VS.cso",
+                "vs": "GltfPbr-Tobj_uv0-VS.cso",
                 "ps": "UnnamedMesh0-0-PS.cso"
             },
             "vk": {
@@ -11,7 +11,7 @@
         },
         {
             "dx": {
-                "vs": "GltfPbr-uv0_Tobj-VS.cso",
+                "vs": "GltfPbr-Tobj_uv0-VS.cso",
                 "ps": "UnnamedMesh0-1-PS.cso"
             },
             "vk": {
@@ -20,7 +20,7 @@
         },
         {
             "dx": {
-                "vs": "GltfPbr-uv0_Tobj-VS.cso",
+                "vs": "GltfPbr-Tobj_uv0-VS.cso",
                 "ps": "UnnamedMesh0-2-PS.cso"
             },
             "vk": {
@@ -29,7 +29,7 @@
         },
         {
             "dx": {
-                "vs": "GltfPbr-uv0_Tobj-VS.cso",
+                "vs": "GltfPbr-Tobj_uv0-VS.cso",
                 "ps": "UnnamedMesh0-3-PS.cso"
             },
             "vk": {
@@ -38,7 +38,7 @@
         },
         {
             "dx": {
-                "vs": "GltfPbr-uv0_Tobj-VS.cso",
+                "vs": "GltfPbr-Tobj_uv0-VS.cso",
                 "ps": "UnnamedMesh0-4-PS.cso"
             },
             "vk": {
@@ -47,7 +47,7 @@
         },
         {
             "dx": {
-                "vs": "GltfPbr-uv0_Tobj-VS.cso",
+                "vs": "GltfPbr-Tobj_uv0-VS.cso",
                 "ps": "UnnamedMesh0-5-PS.cso"
             },
             "vk": {
@@ -56,7 +56,7 @@
         },
         {
             "dx": {
-                "vs": "GltfPbr-uv0_Tobj-VS.cso",
+                "vs": "GltfPbr-Tobj_uv0-VS.cso",
                 "ps": "UnnamedMesh0-6-PS.cso"
             },
             "vk": {
@@ -65,7 +65,7 @@
         },
         {
             "dx": {
-                "vs": "GltfPbr-uv0_Tobj-VS.cso",
+                "vs": "GltfPbr-Tobj_uv0-VS.cso",
                 "ps": "UnnamedMesh0-7-PS.cso"
             },
             "vk": {
@@ -74,7 +74,7 @@
         },
         {
             "dx": {
-                "vs": "GltfPbr-uv0_Tobj-VS.cso",
+                "vs": "GltfPbr-Tobj_uv0-VS.cso",
                 "ps": "UnnamedMesh0-8-PS.cso"
             },
             "vk": {
@@ -83,7 +83,7 @@
         },
         {
             "dx": {
-                "vs": "GltfPbr-uv0_Tobj-VS.cso",
+                "vs": "GltfPbr-Tobj_uv0-VS.cso",
                 "ps": "UnnamedMesh0-9-PS.cso"
             },
             "vk": {
@@ -92,7 +92,7 @@
         },
         {
             "dx": {
-                "vs": "GltfPbr-uv0_Tobj-VS.cso",
+                "vs": "GltfPbr-Tobj_uv0-VS.cso",
                 "ps": "UnnamedMesh0-10-PS.cso"
             },
             "vk": {
@@ -101,7 +101,7 @@
         },
         {
             "dx": {
-                "vs": "GltfPbr-uv0_Tobj-VS.cso",
+                "vs": "GltfPbr-Tobj_uv0-VS.cso",
                 "ps": "UnnamedMesh0-11-PS.cso"
             },
             "vk": {
@@ -110,7 +110,7 @@
         },
         {
             "dx": {
-                "vs": "GltfPbr-uv0_Tobj-VS.cso",
+                "vs": "GltfPbr-Tobj_uv0-VS.cso",
                 "ps": "UnnamedMesh0-12-PS.cso"
             },
             "vk": {
@@ -119,7 +119,7 @@
         },
         {
             "dx": {
-                "vs": "GltfPbr-uv0_Tobj-VS.cso",
+                "vs": "GltfPbr-Tobj_uv0-VS.cso",
                 "ps": "UnnamedMesh0-13-PS.cso"
             },
             "vk": {
@@ -128,7 +128,7 @@
         },
         {
             "dx": {
-                "vs": "GltfPbr-uv0_Tobj-VS.cso",
+                "vs": "GltfPbr-Tobj_uv0-VS.cso",
                 "ps": "UnnamedMesh0-14-PS.cso"
             },
             "vk": {
@@ -137,7 +137,7 @@
         },
         {
             "dx": {
-                "vs": "GltfPbr-uv0_Tobj-VS.cso",
+                "vs": "GltfPbr-Tobj_uv0-VS.cso",
                 "ps": "UnnamedMesh0-15-PS.cso"
             },
             "vk": {
@@ -146,7 +146,7 @@
         },
         {
             "dx": {
-                "vs": "GltfPbr-uv0_Tobj-VS.cso",
+                "vs": "GltfPbr-Tobj_uv0-VS.cso",
                 "ps": "UnnamedMesh0-16-PS.cso"
             },
             "vk": {
@@ -155,7 +155,7 @@
         },
         {
             "dx": {
-                "vs": "GltfPbr-uv0_Tobj-VS.cso",
+                "vs": "GltfPbr-Tobj_uv0-VS.cso",
                 "ps": "UnnamedMesh0-17-PS.cso"
             },
             "vk": {
@@ -164,7 +164,7 @@
         },
         {
             "dx": {
-                "vs": "GltfPbr-uv0_Tobj-VS.cso",
+                "vs": "GltfPbr-Tobj_uv0-VS.cso",
                 "ps": "UnnamedMesh0-18-PS.cso"
             },
             "vk": {
@@ -173,7 +173,7 @@
         },
         {
             "dx": {
-                "vs": "GltfPbr-uv0_Tobj-VS.cso",
+                "vs": "GltfPbr-Tobj_uv0-VS.cso",
                 "ps": "UnnamedMesh0-19-PS.cso"
             },
             "vk": {
@@ -182,7 +182,7 @@
         },
         {
             "dx": {
-                "vs": "GltfPbr-uv0_Tobj-VS.cso",
+                "vs": "GltfPbr-Tobj_uv0-VS.cso",
                 "ps": "UnnamedMesh0-20-PS.cso"
             },
             "vk": {
@@ -191,7 +191,7 @@
         },
         {
             "dx": {
-                "vs": "GltfPbr-uv0_Tobj-VS.cso",
+                "vs": "GltfPbr-Tobj_uv0-VS.cso",
                 "ps": "UnnamedMesh0-21-PS.cso"
             },
             "vk": {
@@ -200,7 +200,7 @@
         },
         {
             "dx": {
-                "vs": "GltfPbr-uv0_Tobj-VS.cso",
+                "vs": "GltfPbr-Tobj_uv0-VS.cso",
                 "ps": "UnnamedMesh0-22-PS.cso"
             },
             "vk": {
@@ -209,7 +209,7 @@
         },
         {
             "dx": {
-                "vs": "GltfPbr-uv0_Tobj-VS.cso",
+                "vs": "GltfPbr-Tobj_uv0-VS.cso",
                 "ps": "UnnamedMesh0-23-PS.cso"
             },
             "vk": {
@@ -218,7 +218,7 @@
         },
         {
             "dx": {
-                "vs": "GltfPbr-uv0_Tobj-VS.cso",
+                "vs": "GltfPbr-Tobj_uv0-VS.cso",
                 "ps": "UnnamedMesh0-24-PS.cso"
             },
             "vk": {
@@ -227,7 +227,7 @@
         },
         {
             "dx": {
-                "vs": "GltfPbr-uv0_Tobj-VS.cso",
+                "vs": "GltfPbr-Tobj_uv0-VS.cso",
                 "ps": "UnnamedMesh0-25-PS.cso"
             },
             "vk": {
@@ -236,7 +236,7 @@
         },
         {
             "dx": {
-                "vs": "GltfPbr-uv0_Tobj-VS.cso",
+                "vs": "GltfPbr-Tobj_uv0-VS.cso",
                 "ps": "UnnamedMesh0-26-PS.cso"
             },
             "vk": {
@@ -245,7 +245,7 @@
         },
         {
             "dx": {
-                "vs": "GltfPbr-uv0_Tobj-VS.cso",
+                "vs": "GltfPbr-Tobj_uv0-VS.cso",
                 "ps": "UnnamedMesh0-27-PS.cso"
             },
             "vk": {
@@ -254,7 +254,7 @@
         },
         {
             "dx": {
-                "vs": "GltfPbr-uv0_Tobj-VS.cso",
+                "vs": "GltfPbr-Tobj_uv0-VS.cso",
                 "ps": "UnnamedMesh0-28-PS.cso"
             },
             "vk": {
@@ -263,7 +263,7 @@
         },
         {
             "dx": {
-                "vs": "GltfPbr-uv0_Tobj-VS.cso",
+                "vs": "GltfPbr-Tobj_uv0-VS.cso",
                 "ps": "UnnamedMesh0-29-PS.cso"
             },
             "vk": {
@@ -272,7 +272,7 @@
         },
         {
             "dx": {
-                "vs": "GltfPbr-uv0_Tobj-VS.cso",
+                "vs": "GltfPbr-Tobj_uv0-VS.cso",
                 "ps": "UnnamedMesh0-30-PS.cso"
             },
             "vk": {
@@ -281,7 +281,7 @@
         },
         {
             "dx": {
-                "vs": "GltfPbr-uv0_Tobj-VS.cso",
+                "vs": "GltfPbr-Tobj_uv0-VS.cso",
                 "ps": "UnnamedMesh0-31-PS.cso"
             },
             "vk": {
@@ -290,7 +290,7 @@
         },
         {
             "dx": {
-                "vs": "GltfPbr-uv0_Tobj-VS.cso",
+                "vs": "GltfPbr-Tobj_uv0-VS.cso",
                 "ps": "UnnamedMesh0-32-PS.cso"
             },
             "vk": {
@@ -299,7 +299,7 @@
         },
         {
             "dx": {
-                "vs": "GltfPbr-uv0_Tobj-VS.cso",
+                "vs": "GltfPbr-Tobj_uv0-VS.cso",
                 "ps": "UnnamedMesh0-33-PS.cso"
             },
             "vk": {
@@ -308,7 +308,7 @@
         },
         {
             "dx": {
-                "vs": "GltfPbr-uv0_Tobj-VS.cso",
+                "vs": "GltfPbr-Tobj_uv0-VS.cso",
                 "ps": "UnnamedMesh0-34-PS.cso"
             },
             "vk": {
@@ -317,7 +317,7 @@
         },
         {
             "dx": {
-                "vs": "GltfPbr-uv0_Tobj-VS.cso",
+                "vs": "GltfPbr-Tobj_uv0-VS.cso",
                 "ps": "UnnamedMesh0-35-PS.cso"
             },
             "vk": {
@@ -326,7 +326,7 @@
         },
         {
             "dx": {
-                "vs": "GltfPbr-uv0_Tobj-VS.cso",
+                "vs": "GltfPbr-Tobj_uv0-VS.cso",
                 "ps": "UnnamedMesh0-36-PS.cso"
             },
             "vk": {
@@ -335,7 +335,7 @@
         },
         {
             "dx": {
-                "vs": "GltfPbr-uv0_Tobj-VS.cso",
+                "vs": "GltfPbr-Tobj_uv0-VS.cso",
                 "ps": "UnnamedMesh0-37-PS.cso"
             },
             "vk": {
@@ -344,7 +344,7 @@
         },
         {
             "dx": {
-                "vs": "GltfPbr-uv0_Tobj-VS.cso",
+                "vs": "GltfPbr-Tobj_uv0-VS.cso",
                 "ps": "UnnamedMesh0-38-PS.cso"
             },
             "vk": {
@@ -353,7 +353,7 @@
         },
         {
             "dx": {
-                "vs": "GltfPbr-uv0_Tobj-VS.cso",
+                "vs": "GltfPbr-Tobj_uv0-VS.cso",
                 "ps": "UnnamedMesh0-39-PS.cso"
             },
             "vk": {
@@ -362,7 +362,7 @@
         },
         {
             "dx": {
-                "vs": "GltfPbr-uv0_Tobj-VS.cso",
+                "vs": "GltfPbr-Tobj_uv0-VS.cso",
                 "ps": "UnnamedMesh0-40-PS.cso"
             },
             "vk": {
@@ -371,7 +371,7 @@
         },
         {
             "dx": {
-                "vs": "GltfPbr-uv0_Tobj-VS.cso",
+                "vs": "GltfPbr-Tobj_uv0-VS.cso",
                 "ps": "UnnamedMesh0-41-PS.cso"
             },
             "vk": {
@@ -380,7 +380,7 @@
         },
         {
             "dx": {
-                "vs": "GltfPbr-uv0_Tobj-VS.cso",
+                "vs": "GltfPbr-Tobj_uv0-VS.cso",
                 "ps": "UnnamedMesh0-42-PS.cso"
             },
             "vk": {
@@ -389,7 +389,7 @@
         },
         {
             "dx": {
-                "vs": "GltfPbr-uv0_Tobj-VS.cso",
+                "vs": "GltfPbr-Tobj_uv0-VS.cso",
                 "ps": "UnnamedMesh0-43-PS.cso"
             },
             "vk": {
@@ -398,7 +398,7 @@
         },
         {
             "dx": {
-                "vs": "GltfPbr-uv0_Tobj-VS.cso",
+                "vs": "GltfPbr-Tobj_uv0-VS.cso",
                 "ps": "UnnamedMesh0-44-PS.cso"
             },
             "vk": {
@@ -407,7 +407,7 @@
         },
         {
             "dx": {
-                "vs": "GltfPbr-uv0_Tobj-VS.cso",
+                "vs": "GltfPbr-Tobj_uv0-VS.cso",
                 "ps": "UnnamedMesh0-45-PS.cso"
             },
             "vk": {
@@ -416,7 +416,7 @@
         },
         {
             "dx": {
-                "vs": "GltfPbr-uv0_Tobj-VS.cso",
+                "vs": "GltfPbr-Tobj_uv0-VS.cso",
                 "ps": "UnnamedMesh0-46-PS.cso"
             },
             "vk": {
@@ -425,7 +425,7 @@
         },
         {
             "dx": {
-                "vs": "GltfPbr-uv0_Tobj-VS.cso",
+                "vs": "GltfPbr-Tobj_uv0-VS.cso",
                 "ps": "UnnamedMesh0-47-PS.cso"
             },
             "vk": {
@@ -434,7 +434,7 @@
         },
         {
             "dx": {
-                "vs": "GltfPbr-uv0_Tobj-VS.cso",
+                "vs": "GltfPbr-Tobj_uv0-VS.cso",
                 "ps": "UnnamedMesh0-48-PS.cso"
             },
             "vk": {
@@ -443,7 +443,7 @@
         },
         {
             "dx": {
-                "vs": "GltfPbr-uv0_Tobj-VS.cso",
+                "vs": "GltfPbr-Tobj_uv0-VS.cso",
                 "ps": "UnnamedMesh0-49-PS.cso"
             },
             "vk": {
@@ -461,7 +461,7 @@
         },
         {
             "dx": {
-                "vs": "GltfPbr-uv0_Tobj-VS.cso",
+                "vs": "GltfPbr-Tobj_uv0-VS.cso",
                 "ps": "UnnamedMesh0-51-PS.cso"
             },
             "vk": {
@@ -470,7 +470,7 @@
         },
         {
             "dx": {
-                "vs": "GltfPbr-uv0_Tobj-VS.cso",
+                "vs": "GltfPbr-Tobj_uv0-VS.cso",
                 "ps": "UnnamedMesh0-52-PS.cso"
             },
             "vk": {
@@ -479,7 +479,7 @@
         },
         {
             "dx": {
-                "vs": "GltfPbr-uv0_Tobj-VS.cso",
+                "vs": "GltfPbr-Tobj_uv0-VS.cso",
                 "ps": "UnnamedMesh0-53-PS.cso"
             },
             "vk": {
@@ -488,7 +488,7 @@
         },
         {
             "dx": {
-                "vs": "GltfPbr-uv0_Tobj-VS.cso",
+                "vs": "GltfPbr-Tobj_uv0-VS.cso",
                 "ps": "UnnamedMesh0-54-PS.cso"
             },
             "vk": {
@@ -497,7 +497,7 @@
         },
         {
             "dx": {
-                "vs": "GltfPbr-uv0_Tobj-VS.cso",
+                "vs": "GltfPbr-Tobj_uv0-VS.cso",
                 "ps": "UnnamedMesh0-55-PS.cso"
             },
             "vk": {
@@ -506,7 +506,7 @@
         },
         {
             "dx": {
-                "vs": "GltfPbr-uv0_Tobj-VS.cso",
+                "vs": "GltfPbr-Tobj_uv0-VS.cso",
                 "ps": "UnnamedMesh0-56-PS.cso"
             },
             "vk": {
@@ -515,7 +515,7 @@
         },
         {
             "dx": {
-                "vs": "GltfPbr-uv0_Tobj-VS.cso",
+                "vs": "GltfPbr-Tobj_uv0-VS.cso",
                 "ps": "UnnamedMesh0-57-PS.cso"
             },
             "vk": {
@@ -524,7 +524,7 @@
         },
         {
             "dx": {
-                "vs": "GltfPbr-uv0_Tobj-VS.cso",
+                "vs": "GltfPbr-Tobj_uv0-VS.cso",
                 "ps": "UnnamedMesh0-58-PS.cso"
             },
             "vk": {
@@ -533,7 +533,7 @@
         },
         {
             "dx": {
-                "vs": "GltfPbr-uv0_Tobj-VS.cso",
+                "vs": "GltfPbr-Tobj_uv0-VS.cso",
                 "ps": "UnnamedMesh0-59-PS.cso"
             },
             "vk": {
@@ -542,7 +542,7 @@
         },
         {
             "dx": {
-                "vs": "GltfPbr-uv0_Tobj-VS.cso",
+                "vs": "GltfPbr-Tobj_uv0-VS.cso",
                 "ps": "UnnamedMesh0-60-PS.cso"
             },
             "vk": {
@@ -551,7 +551,7 @@
         },
         {
             "dx": {
-                "vs": "GltfPbr-uv0_Tobj-VS.cso",
+                "vs": "GltfPbr-Tobj_uv0-VS.cso",
                 "ps": "UnnamedMesh0-61-PS.cso"
             },
             "vk": {
@@ -560,7 +560,7 @@
         },
         {
             "dx": {
-                "vs": "GltfPbr-uv0_Tobj-VS.cso",
+                "vs": "GltfPbr-Tobj_uv0-VS.cso",
                 "ps": "UnnamedMesh0-62-PS.cso"
             },
             "vk": {
@@ -569,7 +569,7 @@
         },
         {
             "dx": {
-                "vs": "GltfPbr-uv0_Tobj-VS.cso",
+                "vs": "GltfPbr-Tobj_uv0-VS.cso",
                 "ps": "UnnamedMesh0-63-PS.cso"
             },
             "vk": {
@@ -578,7 +578,7 @@
         },
         {
             "dx": {
-                "vs": "GltfPbr-uv0_Tobj-VS.cso",
+                "vs": "GltfPbr-Tobj_uv0-VS.cso",
                 "ps": "UnnamedMesh0-64-PS.cso"
             },
             "vk": {
@@ -587,7 +587,7 @@
         },
         {
             "dx": {
-                "vs": "GltfPbr-uv0_Tobj-VS.cso",
+                "vs": "GltfPbr-Tobj_uv0-VS.cso",
                 "ps": "UnnamedMesh0-65-PS.cso"
             },
             "vk": {
@@ -596,7 +596,7 @@
         },
         {
             "dx": {
-                "vs": "GltfPbr-uv0_Tobj-VS.cso",
+                "vs": "GltfPbr-Tobj_uv0-VS.cso",
                 "ps": "UnnamedMesh0-66-PS.cso"
             },
             "vk": {
@@ -605,7 +605,7 @@
         },
         {
             "dx": {
-                "vs": "GltfPbr-uv0_Tobj-VS.cso",
+                "vs": "GltfPbr-Tobj_uv0-VS.cso",
                 "ps": "UnnamedMesh0-67-PS.cso"
             },
             "vk": {
@@ -614,7 +614,7 @@
         },
         {
             "dx": {
-                "vs": "GltfPbr-uv0_Tobj-VS.cso",
+                "vs": "GltfPbr-Tobj_uv0-VS.cso",
                 "ps": "UnnamedMesh0-68-PS.cso"
             },
             "vk": {
@@ -623,7 +623,7 @@
         },
         {
             "dx": {
-                "vs": "GltfPbr-uv0_Tobj-VS.cso",
+                "vs": "GltfPbr-Tobj_uv0-VS.cso",
                 "ps": "UnnamedMesh0-69-PS.cso"
             },
             "vk": {
@@ -632,7 +632,7 @@
         },
         {
             "dx": {
-                "vs": "GltfPbr-uv0_Tobj-VS.cso",
+                "vs": "GltfPbr-Tobj_uv0-VS.cso",
                 "ps": "UnnamedMesh0-70-PS.cso"
             },
             "vk": {
@@ -641,7 +641,7 @@
         },
         {
             "dx": {
-                "vs": "GltfPbr-uv0_Tobj-VS.cso",
+                "vs": "GltfPbr-Tobj_uv0-VS.cso",
                 "ps": "UnnamedMesh0-71-PS.cso"
             },
             "vk": {
@@ -650,7 +650,7 @@
         },
         {
             "dx": {
-                "vs": "GltfPbr-uv0_Tobj-VS.cso",
+                "vs": "GltfPbr-Tobj_uv0-VS.cso",
                 "ps": "UnnamedMesh0-72-PS.cso"
             },
             "vk": {
@@ -659,7 +659,7 @@
         },
         {
             "dx": {
-                "vs": "GltfPbr-uv0_Tobj-VS.cso",
+                "vs": "GltfPbr-Tobj_uv0-VS.cso",
                 "ps": "UnnamedMesh0-73-PS.cso"
             },
             "vk": {
@@ -668,7 +668,7 @@
         },
         {
             "dx": {
-                "vs": "GltfPbr-uv0_Tobj-VS.cso",
+                "vs": "GltfPbr-Tobj_uv0-VS.cso",
                 "ps": "UnnamedMesh0-74-PS.cso"
             },
             "vk": {
@@ -677,7 +677,7 @@
         },
         {
             "dx": {
-                "vs": "GltfPbr-uv0_Tobj-VS.cso",
+                "vs": "GltfPbr-Tobj_uv0-VS.cso",
                 "ps": "UnnamedMesh0-75-PS.cso"
             },
             "vk": {
@@ -686,7 +686,7 @@
         },
         {
             "dx": {
-                "vs": "GltfPbr-uv0_Tobj-VS.cso",
+                "vs": "GltfPbr-Tobj_uv0-VS.cso",
                 "ps": "UnnamedMesh0-76-PS.cso"
             },
             "vk": {
@@ -695,7 +695,7 @@
         },
         {
             "dx": {
-                "vs": "GltfPbr-uv0_Tobj-VS.cso",
+                "vs": "GltfPbr-Tobj_uv0-VS.cso",
                 "ps": "UnnamedMesh0-77-PS.cso"
             },
             "vk": {
@@ -704,7 +704,7 @@
         },
         {
             "dx": {
-                "vs": "GltfPbr-uv0_Tobj-VS.cso",
+                "vs": "GltfPbr-Tobj_uv0-VS.cso",
                 "ps": "UnnamedMesh0-78-PS.cso"
             },
             "vk": {
@@ -713,7 +713,7 @@
         },
         {
             "dx": {
-                "vs": "GltfPbr-uv0_Tobj-VS.cso",
+                "vs": "GltfPbr-Tobj_uv0-VS.cso",
                 "ps": "UnnamedMesh0-79-PS.cso"
             },
             "vk": {
@@ -722,7 +722,7 @@
         },
         {
             "dx": {
-                "vs": "GltfPbr-uv0_Tobj-VS.cso",
+                "vs": "GltfPbr-Tobj_uv0-VS.cso",
                 "ps": "UnnamedMesh0-80-PS.cso"
             },
             "vk": {
@@ -731,7 +731,7 @@
         },
         {
             "dx": {
-                "vs": "GltfPbr-uv0_Tobj-VS.cso",
+                "vs": "GltfPbr-Tobj_uv0-VS.cso",
                 "ps": "UnnamedMesh0-81-PS.cso"
             },
             "vk": {
@@ -740,7 +740,7 @@
         },
         {
             "dx": {
-                "vs": "GltfPbr-uv0_Tobj-VS.cso",
+                "vs": "GltfPbr-Tobj_uv0-VS.cso",
                 "ps": "UnnamedMesh0-82-PS.cso"
             },
             "vk": {
@@ -749,7 +749,7 @@
         },
         {
             "dx": {
-                "vs": "GltfPbr-uv0_Tobj-VS.cso",
+                "vs": "GltfPbr-Tobj_uv0-VS.cso",
                 "ps": "UnnamedMesh0-83-PS.cso"
             },
             "vk": {
@@ -758,7 +758,7 @@
         },
         {
             "dx": {
-                "vs": "GltfPbr-uv0_Tobj-VS.cso",
+                "vs": "GltfPbr-Tobj_uv0-VS.cso",
                 "ps": "UnnamedMesh0-84-PS.cso"
             },
             "vk": {
@@ -767,7 +767,7 @@
         },
         {
             "dx": {
-                "vs": "GltfPbr-uv0_Tobj-VS.cso",
+                "vs": "GltfPbr-Tobj_uv0-VS.cso",
                 "ps": "UnnamedMesh0-85-PS.cso"
             },
             "vk": {
@@ -776,7 +776,7 @@
         },
         {
             "dx": {
-                "vs": "GltfPbr-uv0_Tobj-VS.cso",
+                "vs": "GltfPbr-Tobj_uv0-VS.cso",
                 "ps": "UnnamedMesh0-86-PS.cso"
             },
             "vk": {
@@ -785,7 +785,7 @@
         },
         {
             "dx": {
-                "vs": "GltfPbr-uv0_Tobj-VS.cso",
+                "vs": "GltfPbr-Tobj_uv0-VS.cso",
                 "ps": "UnnamedMesh0-87-PS.cso"
             },
             "vk": {
@@ -794,7 +794,7 @@
         },
         {
             "dx": {
-                "vs": "GltfPbr-uv0_Tobj-VS.cso",
+                "vs": "GltfPbr-Tobj_uv0-VS.cso",
                 "ps": "UnnamedMesh0-88-PS.cso"
             },
             "vk": {
@@ -803,7 +803,7 @@
         },
         {
             "dx": {
-                "vs": "GltfPbr-uv0_Tobj-VS.cso",
+                "vs": "GltfPbr-Tobj_uv0-VS.cso",
                 "ps": "UnnamedMesh0-89-PS.cso"
             },
             "vk": {
@@ -812,7 +812,7 @@
         },
         {
             "dx": {
-                "vs": "GltfPbr-uv0_Tobj-VS.cso",
+                "vs": "GltfPbr-Tobj_uv0-VS.cso",
                 "ps": "UnnamedMesh0-90-PS.cso"
             },
             "vk": {
@@ -821,7 +821,7 @@
         },
         {
             "dx": {
-                "vs": "GltfPbr-uv0_Tobj-VS.cso",
+                "vs": "GltfPbr-Tobj_uv0-VS.cso",
                 "ps": "UnnamedMesh0-91-PS.cso"
             },
             "vk": {
@@ -830,7 +830,7 @@
         },
         {
             "dx": {
-                "vs": "GltfPbr-uv0_Tobj-VS.cso",
+                "vs": "GltfPbr-Tobj_uv0-VS.cso",
                 "ps": "UnnamedMesh0-92-PS.cso"
             },
             "vk": {
@@ -839,7 +839,7 @@
         },
         {
             "dx": {
-                "vs": "GltfPbr-uv0_Tobj-VS.cso",
+                "vs": "GltfPbr-Tobj_uv0-VS.cso",
                 "ps": "UnnamedMesh0-93-PS.cso"
             },
             "vk": {
@@ -848,7 +848,7 @@
         },
         {
             "dx": {
-                "vs": "GltfPbr-uv0_Tobj-VS.cso",
+                "vs": "GltfPbr-Tobj_uv0-VS.cso",
                 "ps": "UnnamedMesh0-94-PS.cso"
             },
             "vk": {
@@ -857,7 +857,7 @@
         },
         {
             "dx": {
-                "vs": "GltfPbr-uv0_Tobj-VS.cso",
+                "vs": "GltfPbr-Tobj_uv0-VS.cso",
                 "ps": "UnnamedMesh0-95-PS.cso"
             },
             "vk": {
@@ -866,7 +866,7 @@
         },
         {
             "dx": {
-                "vs": "GltfPbr-uv0_Tobj-VS.cso",
+                "vs": "GltfPbr-Tobj_uv0-VS.cso",
                 "ps": "UnnamedMesh0-96-PS.cso"
             },
             "vk": {
@@ -875,7 +875,7 @@
         },
         {
             "dx": {
-                "vs": "GltfPbr-uv0_Tobj-VS.cso",
+                "vs": "GltfPbr-Tobj_uv0-VS.cso",
                 "ps": "UnnamedMesh0-97-PS.cso"
             },
             "vk": {
@@ -884,7 +884,7 @@
         },
         {
             "dx": {
-                "vs": "GltfPbr-uv0_Tobj-VS.cso",
+                "vs": "GltfPbr-Tobj_uv0-VS.cso",
                 "ps": "UnnamedMesh0-98-PS.cso"
             },
             "vk": {
@@ -893,7 +893,7 @@
         },
         {
             "dx": {
-                "vs": "GltfPbr-uv0_Tobj-VS.cso",
+                "vs": "GltfPbr-Tobj_uv0-VS.cso",
                 "ps": "UnnamedMesh0-99-PS.cso"
             },
             "vk": {
@@ -902,7 +902,7 @@
         },
         {
             "dx": {
-                "vs": "GltfPbr-uv0_Tobj-VS.cso",
+                "vs": "GltfPbr-Tobj_uv0-VS.cso",
                 "ps": "UnnamedMesh0-100-PS.cso"
             },
             "vk": {
@@ -911,7 +911,7 @@
         },
         {
             "dx": {
-                "vs": "GltfPbr-uv0_Tobj-VS.cso",
+                "vs": "GltfPbr-Tobj_uv0-VS.cso",
                 "ps": "UnnamedMesh0-101-PS.cso"
             },
             "vk": {
@@ -920,7 +920,7 @@
         },
         {
             "dx": {
-                "vs": "GltfPbr-uv0_Tobj-VS.cso",
+                "vs": "GltfPbr-Tobj_uv0-VS.cso",
                 "ps": "UnnamedMesh0-102-PS.cso"
             },
             "vk": {
