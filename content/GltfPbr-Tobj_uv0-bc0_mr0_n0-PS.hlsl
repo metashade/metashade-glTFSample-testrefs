@@ -153,10 +153,10 @@ struct PbrParams
 	float fOpacity;
 };
 
-// https://google.github.io/filament/Filament.md.html#materialsystem/specularbrdf/normaldistributionfunction(speculard)
-// 
 float D_Ggx(float NdotH, float fAlphaRoughness)
 {
+	// https://google.github.io/filament/Filament.md.html#materialsystem/specularbrdf/normaldistributionfunction(speculard)
+	// 
 	float fASqr = (fAlphaRoughness * fAlphaRoughness);
 	float fF = ((((NdotH * fASqr) - NdotH) * NdotH) + 1.0);
 	return saturate((fASqr / ((3.141592653589793 * fF) * fF)));
@@ -167,10 +167,10 @@ float3 F_Schlick(float LdotH, float3 rgbF0)
 	return (rgbF0 + ((1.0.xxx - rgbF0) * pow((1.0 - LdotH), 5.0)));
 }
 
-// https://google.github.io/filament/Filament.md.html#materialsystem/specularbrdf/geometricshadowing(specularg)
-// 
 float V_SmithGgxCorrelated(float NdotV, float NdotL, float fAlphaRoughness)
 {
+	// https://google.github.io/filament/Filament.md.html#materialsystem/specularbrdf/geometricshadowing(specularg)
+	// 
 	float fASqr = (fAlphaRoughness * fAlphaRoughness);
 	float fGgxL = (NdotV * sqrt((((NdotL - (NdotL * fASqr)) * NdotL) + fASqr)));
 	float fGgxV = (NdotL * sqrt((((NdotV - (NdotV * fASqr)) * NdotV) + fASqr)));
