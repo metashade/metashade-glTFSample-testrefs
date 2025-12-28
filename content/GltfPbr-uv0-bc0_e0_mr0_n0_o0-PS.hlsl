@@ -81,11 +81,6 @@ float D_Ggx(float NdotH, float fAlphaRoughness)
 	return saturate((fASqr / ((3.141592653589793 * fF) * fF)));
 }
 
-float3 F_Schlick(float LdotH, float3 rgbF0)
-{
-	return (rgbF0 + ((1.0.xxx - rgbF0) * pow((1.0 - LdotH), 5.0)));
-}
-
 float V_SmithGgxCorrelated(float NdotV, float NdotL, float fAlphaRoughness)
 {
 	// https://google.github.io/filament/Filament.md.html#materialsystem/specularbrdf/geometricshadowing(specularg)
@@ -95,6 +90,11 @@ float V_SmithGgxCorrelated(float NdotV, float NdotL, float fAlphaRoughness)
 	float fGgxV = (NdotL * sqrt((((NdotV - (NdotV * fASqr)) * NdotV) + fASqr)));
 	float fV = (0.5 / (fGgxL + fGgxV));
 	return saturate(fV);
+}
+
+float3 F_Schlick(float LdotH, float3 rgbF0)
+{
+	return (rgbF0 + ((1.0.xxx - rgbF0) * pow((1.0 - LdotH), 5.0)));
 }
 
 float Fd_Lambert()
