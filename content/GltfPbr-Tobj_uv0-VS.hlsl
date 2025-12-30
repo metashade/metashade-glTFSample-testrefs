@@ -64,7 +64,7 @@ VsOut main(VsIn vsIn)
 	vsOut.Pw = Pw.xyz;
 	vsOut.Nw = normalize(mul(g_WorldXf, float4(vsIn.Nobj, 0.0)).xyz);
 	vsOut.Tw = normalize(mul(g_WorldXf, float4(vsIn.Tobj.xyz, 0.0)).xyz);
-	vsOut.Bw = (cross(vsOut.Nw, vsOut.Tw) * vsIn.Tobj.w);
+	vsOut.Bw = cross(vsOut.Nw, vsOut.Tw) * vsIn.Tobj.w;
 	vsOut.uv0 = vsIn.uv0;
 	return vsOut;
 }
