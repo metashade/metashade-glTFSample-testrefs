@@ -72,6 +72,15 @@ struct PbrParams
 	float fOpacity;
 };
 
+// GGX/Trowbridge-Reitz Normal Distribution Function.
+// 
+// Args:
+// NdotH: Dot product of surface normal and half-vector
+// fAlphaRoughness: Roughness parameter (perceptualRoughness^2)
+// 
+// Returns:
+// NDF value
+//
 float D_Ggx(float NdotH, float fAlphaRoughness)
 {
 	// https://google.github.io/filament/Filament.md.html#materialsystem/specularbrdf/normaldistributionfunction(speculard)
@@ -81,6 +90,19 @@ float D_Ggx(float NdotH, float fAlphaRoughness)
 	return saturate(fASqr / ((3.141592653589793 * fF) * fF));
 }
 
+// Smith-GGX Height-Correlated Visibility Function.
+// 
+// This is the visibility term, combining
+// the geometric shadowing and masking into a single optimized form.
+// 
+// Args:
+// NdotV: Dot product of surface normal and view direction
+// NdotL: Dot product of surface normal and light direction
+// fAlphaRoughness: Roughness parameter (perceptualRoughness^2)
+// 
+// Returns:
+// Visibility term value
+//
 float V_SmithGgxCorrelated(float NdotV, float NdotL, float fAlphaRoughness)
 {
 	// https://google.github.io/filament/Filament.md.html#materialsystem/specularbrdf/geometricshadowing(specularg)
@@ -92,11 +114,31 @@ float V_SmithGgxCorrelated(float NdotV, float NdotL, float fAlphaRoughness)
 	return saturate(fV);
 }
 
+// Schlick's approximation of the Fresnel term.
+// 
+// Args:
+// LdotH: Dot product of light direction and half-vector
+// rgbF0: Reflectance at normal incidence
+// 
+// Returns:
+// Fresnel reflectance
+//
 float3 F_Schlick(float LdotH, float3 rgbF0)
 {
 	return rgbF0 + ((1.0.xxx - rgbF0) * pow(1.0 - LdotH, 5.0));
 }
 
+// Lambertian diffuse BRDF.
+// 
+// Returns the constant 1/\u03c0 factor for energy-conserving Lambertian diffuse.
+// Multiply by the diffuse albedo to get the full diffuse contribution.
+// 
+// Returns:
+// 1/\u03c0 (the Lambertian BRDF normalization factor)
+// 
+// Reference:
+// https://google.github.io/filament/Filament.md.html#materialsystem/diffusebrdf
+//
 float Fd_Lambert()
 {
 	return 0.3183098861837907;
@@ -138,12 +180,12 @@ SamplerComparisonState g_sShadowMap : register(s9);
 PbrParams metallicRoughness(VsOut psIn)
 {
 	float4 rgbaBaseColor = g_tBaseColor.SampleBias(g_sBaseColor, psIn.uv0, g_lodBias);
-	rgbaBaseColor = rgbaBaseColor * g_perObjectPbrFactors.rgbaBaseColor;
+	rgbaBaseColor *= g_perObjectPbrFactors.rgbaBaseColor;
 	float fPerceptualRoughness = g_perObjectPbrFactors.fRoughness;
 	float fMetallic = g_perObjectPbrFactors.fMetallic;
 	float4 metallicRoughnessSample = g_tMetallicRoughness.SampleBias(g_sMetallicRoughness, psIn.uv0, g_lodBias);
-	fPerceptualRoughness = fPerceptualRoughness * metallicRoughnessSample.g;
-	fMetallic = fMetallic * metallicRoughnessSample.b;
+	fPerceptualRoughness *= metallicRoughnessSample.g;
+	fMetallic *= metallicRoughnessSample.b;
 	fMetallic = saturate(fMetallic);
 	float fMinF0 = 0.04;
 	PbrParams pbrParams;
@@ -157,39 +199,39 @@ PbrParams metallicRoughness(VsOut psIn)
 float getPcfShadow(float2 uv, float fCompareValue)
 {
 	float fResult = 0;
-	fResult = fResult + g_tShadowMap.SampleCmpLevelZero(g_sShadowMap, uv, fCompareValue, int2(-2, -2)).r;
-	fResult = fResult + g_tShadowMap.SampleCmpLevelZero(g_sShadowMap, uv, fCompareValue, int2(-2, -1)).r;
-	fResult = fResult + g_tShadowMap.SampleCmpLevelZero(g_sShadowMap, uv, fCompareValue, int2(-2, 0)).r;
-	fResult = fResult + g_tShadowMap.SampleCmpLevelZero(g_sShadowMap, uv, fCompareValue, int2(-2, 1)).r;
-	fResult = fResult + g_tShadowMap.SampleCmpLevelZero(g_sShadowMap, uv, fCompareValue, int2(-2, 2)).r;
-	fResult = fResult + g_tShadowMap.SampleCmpLevelZero(g_sShadowMap, uv, fCompareValue, int2(-1, -2)).r;
-	fResult = fResult + g_tShadowMap.SampleCmpLevelZero(g_sShadowMap, uv, fCompareValue, int2(-1, -1)).r;
-	fResult = fResult + g_tShadowMap.SampleCmpLevelZero(g_sShadowMap, uv, fCompareValue, int2(-1, 0)).r;
-	fResult = fResult + g_tShadowMap.SampleCmpLevelZero(g_sShadowMap, uv, fCompareValue, int2(-1, 1)).r;
-	fResult = fResult + g_tShadowMap.SampleCmpLevelZero(g_sShadowMap, uv, fCompareValue, int2(-1, 2)).r;
-	fResult = fResult + g_tShadowMap.SampleCmpLevelZero(g_sShadowMap, uv, fCompareValue, int2(0, -2)).r;
-	fResult = fResult + g_tShadowMap.SampleCmpLevelZero(g_sShadowMap, uv, fCompareValue, int2(0, -1)).r;
-	fResult = fResult + g_tShadowMap.SampleCmpLevelZero(g_sShadowMap, uv, fCompareValue, int2(0, 0)).r;
-	fResult = fResult + g_tShadowMap.SampleCmpLevelZero(g_sShadowMap, uv, fCompareValue, int2(0, 1)).r;
-	fResult = fResult + g_tShadowMap.SampleCmpLevelZero(g_sShadowMap, uv, fCompareValue, int2(0, 2)).r;
-	fResult = fResult + g_tShadowMap.SampleCmpLevelZero(g_sShadowMap, uv, fCompareValue, int2(1, -2)).r;
-	fResult = fResult + g_tShadowMap.SampleCmpLevelZero(g_sShadowMap, uv, fCompareValue, int2(1, -1)).r;
-	fResult = fResult + g_tShadowMap.SampleCmpLevelZero(g_sShadowMap, uv, fCompareValue, int2(1, 0)).r;
-	fResult = fResult + g_tShadowMap.SampleCmpLevelZero(g_sShadowMap, uv, fCompareValue, int2(1, 1)).r;
-	fResult = fResult + g_tShadowMap.SampleCmpLevelZero(g_sShadowMap, uv, fCompareValue, int2(1, 2)).r;
-	fResult = fResult + g_tShadowMap.SampleCmpLevelZero(g_sShadowMap, uv, fCompareValue, int2(2, -2)).r;
-	fResult = fResult + g_tShadowMap.SampleCmpLevelZero(g_sShadowMap, uv, fCompareValue, int2(2, -1)).r;
-	fResult = fResult + g_tShadowMap.SampleCmpLevelZero(g_sShadowMap, uv, fCompareValue, int2(2, 0)).r;
-	fResult = fResult + g_tShadowMap.SampleCmpLevelZero(g_sShadowMap, uv, fCompareValue, int2(2, 1)).r;
-	fResult = fResult + g_tShadowMap.SampleCmpLevelZero(g_sShadowMap, uv, fCompareValue, int2(2, 2)).r;
-	fResult = fResult / 25;
+	fResult += g_tShadowMap.SampleCmpLevelZero(g_sShadowMap, uv, fCompareValue, int2(-2, -2)).r;
+	fResult += g_tShadowMap.SampleCmpLevelZero(g_sShadowMap, uv, fCompareValue, int2(-2, -1)).r;
+	fResult += g_tShadowMap.SampleCmpLevelZero(g_sShadowMap, uv, fCompareValue, int2(-2, 0)).r;
+	fResult += g_tShadowMap.SampleCmpLevelZero(g_sShadowMap, uv, fCompareValue, int2(-2, 1)).r;
+	fResult += g_tShadowMap.SampleCmpLevelZero(g_sShadowMap, uv, fCompareValue, int2(-2, 2)).r;
+	fResult += g_tShadowMap.SampleCmpLevelZero(g_sShadowMap, uv, fCompareValue, int2(-1, -2)).r;
+	fResult += g_tShadowMap.SampleCmpLevelZero(g_sShadowMap, uv, fCompareValue, int2(-1, -1)).r;
+	fResult += g_tShadowMap.SampleCmpLevelZero(g_sShadowMap, uv, fCompareValue, int2(-1, 0)).r;
+	fResult += g_tShadowMap.SampleCmpLevelZero(g_sShadowMap, uv, fCompareValue, int2(-1, 1)).r;
+	fResult += g_tShadowMap.SampleCmpLevelZero(g_sShadowMap, uv, fCompareValue, int2(-1, 2)).r;
+	fResult += g_tShadowMap.SampleCmpLevelZero(g_sShadowMap, uv, fCompareValue, int2(0, -2)).r;
+	fResult += g_tShadowMap.SampleCmpLevelZero(g_sShadowMap, uv, fCompareValue, int2(0, -1)).r;
+	fResult += g_tShadowMap.SampleCmpLevelZero(g_sShadowMap, uv, fCompareValue, int2(0, 0)).r;
+	fResult += g_tShadowMap.SampleCmpLevelZero(g_sShadowMap, uv, fCompareValue, int2(0, 1)).r;
+	fResult += g_tShadowMap.SampleCmpLevelZero(g_sShadowMap, uv, fCompareValue, int2(0, 2)).r;
+	fResult += g_tShadowMap.SampleCmpLevelZero(g_sShadowMap, uv, fCompareValue, int2(1, -2)).r;
+	fResult += g_tShadowMap.SampleCmpLevelZero(g_sShadowMap, uv, fCompareValue, int2(1, -1)).r;
+	fResult += g_tShadowMap.SampleCmpLevelZero(g_sShadowMap, uv, fCompareValue, int2(1, 0)).r;
+	fResult += g_tShadowMap.SampleCmpLevelZero(g_sShadowMap, uv, fCompareValue, int2(1, 1)).r;
+	fResult += g_tShadowMap.SampleCmpLevelZero(g_sShadowMap, uv, fCompareValue, int2(1, 2)).r;
+	fResult += g_tShadowMap.SampleCmpLevelZero(g_sShadowMap, uv, fCompareValue, int2(2, -2)).r;
+	fResult += g_tShadowMap.SampleCmpLevelZero(g_sShadowMap, uv, fCompareValue, int2(2, -1)).r;
+	fResult += g_tShadowMap.SampleCmpLevelZero(g_sShadowMap, uv, fCompareValue, int2(2, 0)).r;
+	fResult += g_tShadowMap.SampleCmpLevelZero(g_sShadowMap, uv, fCompareValue, int2(2, 1)).r;
+	fResult += g_tShadowMap.SampleCmpLevelZero(g_sShadowMap, uv, fCompareValue, int2(2, 2)).r;
+	fResult /= 25;
 	return fResult;
 }
 
 float getSpotShadow(Light light, float3 Pw)
 {
 	float4 p4Shadow = mul(light.VpXf, float4(Pw, 1.0));
-	p4Shadow.xyz = p4Shadow.xyz / p4Shadow.w;
+	p4Shadow.xyz /= p4Shadow.w;
 	float2 uvShadow = (1.0.xx + float2(p4Shadow.x, -p4Shadow.y)) * 0.5;
 	float fCompareValue = p4Shadow.z - light.fDepthBias;
 	float fShadow = getPcfShadow(uvShadow, fCompareValue);
@@ -238,9 +280,9 @@ PsOut main(VsOut psIn)
 	PsOut psOut;
 	psOut.rgbaColor.a = pbrParams.fOpacity;
 	psOut.rgbaColor.rgb = applySpotLight(g_lights[0], Nw, Vw, psIn.Pw, pbrParams);
-	psOut.rgbaColor.rgb = psOut.rgbaColor.rgb + (getIbl(pbrParams, Nw, Vw) * g_fIblFactor);
+	psOut.rgbaColor.rgb += getIbl(pbrParams, Nw, Vw) * g_fIblFactor;
 	float3 rgbEmissive = g_perObjectPbrFactors.rgbaEmissive.rgb * g_fPerFrameEmissiveFactor;
-	psOut.rgbaColor.rgb = psOut.rgbaColor.rgb + rgbEmissive;
+	psOut.rgbaColor.rgb += rgbEmissive;
 	return psOut;
 }
 
